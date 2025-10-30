@@ -1,0 +1,137 @@
+ body {
+        background-color: rgb(184, 184, 184);
+        margin: 0;  
+        font-family: sans-serif;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+.topbar{
+ background-color: #000000;
+ padding: 7px 25px;
+ font-weight: 600;
+ font-style: normal;
+ font-family: "Sedan SC", serif;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+}
+.logo{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.logo img{
+width: 40px;
+height: 40px;
+object-fit: contain;
+}
+.logo h1{
+font-size: 20px;
+color: rgb(222, 220, 220);
+}
+
+.navigacija{
+ display: flex;
+ align-items: center;
+ gap: 30px;
+}
+.navigacija a {
+ text-decoration: none;
+ color:rgb(222, 220, 220);
+ transition: color 0.3ss;
+}
+
+.navigacija a:hover {
+  color: rgb(73, 73, 73);
+}
+.about {
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  overflow: hidden;
+}
+
+.photo {
+  float: left;
+  width: 35%;
+  text-align: center;
+}
+
+.photo img {
+  width: 80%;
+  border-radius: 15px;
+}
+
+.info {
+  float: right;
+  width: 60%;
+}
+
+.info p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.info h2, .info h3 {
+  color: #000000;
+  border-bottom: 2px solid #3e3e3e;
+  padding-bottom: 5px;
+}
+
+ul, ol {
+  list-style: disc;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.education {
+  list-style: disc;
+  margin-left: 25px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 600;
+ font-style: normal;
+
+}
+
+ul.contact li a {
+ color: #ffffff;
+ font-weight: 200;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 5px;
+}
+
+ul.contact li {
+ font-weight: 600;
+ font-style: normal;
+ font-family: "Sedan SC", serif;
+}
+
+ul.contact li a:hover {
+  text-decoration: underline;
+}
+
+ol.languages li {
+ font-weight: 600;
+ font-style: normal;
+ font-family: "Sedan SC", serif;
+}
+
+ul.interests li {
+  display: inline-block;
+  background-color: #eee;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 6px;
+  list-style: none;
+}
+
+footer {
+  padding: 20px;
+ color:rgb(222, 220, 220);
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:  #000000;
+}
